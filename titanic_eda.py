@@ -236,4 +236,3 @@ print(f"\n• Median age (survivors)       : "
       f"{df[df['survived']==1]['age'].median():.1f}")
 print(f"• Median age (non-survivors)   : "
       f"{df[df['survived']==0]['age'].median():.1f}")
-
