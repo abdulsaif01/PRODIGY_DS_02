@@ -237,5 +237,3 @@ print(f"\n• Median age (survivors)       : "
 print(f"• Median age (non-survivors)   : "
       f"{df[df['survived']==0]['age'].median():.1f}")
 
-print("\n── Analysis complete. All figures saved as PNG files.")
-print("   Push everything to your GitHub repo: PRODIGY_DS_02\n")
