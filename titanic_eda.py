@@ -4,12 +4,12 @@
 #  Author : Abdul Saif
 # ============================================================
 
-import pandas as pd
+import pandas as pd  # type: ignore[import]
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mtick
-import seaborn as sns
-from sklearn.datasets import fetch_openml   # gets Titanic without a CSV
+import matplotlib.pyplot as plt  # type: ignore[import]
+import matplotlib.ticker as mtick  # type: ignore[import]
+import seaborn as sns  # type: ignore[import]
+from sklearn.datasets import fetch_openml   # type: ignore[import]
 
 # ── Style ────────────────────────────────────────────────────
 sns.set_theme(style="whitegrid", palette="muted")
